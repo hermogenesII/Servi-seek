@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="monitor.css" />
+    <title>Status</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="navBar">
+        <div class="menu-toggle">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </div>
+      <aside class="sidebar">
+        <div class="logo">
+          <a href="#"><h2>Servi-Seek</h2></a>
+          <div class="closeMenu">
+            <i class="fa-solid fa-xmark"></i>
+          </div>
+        </div>
+
+        <nav class="menu">
+          <a href="#"
+            ><i class="fa-solid fa-user"></i>
+            <h3>My Account</h3></a
+          >
+          <a href="#" class="active"
+            ><i class="fa-solid fa-receipt"></i>
+            <h3>My Acquired Service</h3></a
+          >
+          <a href="#"
+            ><i class="fa-solid fa-message"></i>
+            <h3>Message</h3></a
+          >
+        </nav>
+      </aside>
+      <main class="content">
+        <div class="title">Monitor Status</div>
+        <table>
+          <thread>
+            <tr>
+              <th>Service Type</th>
+              <th>Service Number</th>
+              <th>Contact</th>
+              <th>Status</th>
+            </tr>
+          </thread>
+          <tbody>
+            <tr>
+              <td>Furniture</td>
+              <td>001</td>
+              <td><a href="#">Message</a></td>
+              <td>
+                <select class="select">
+                  <option disabled selected>Select</option>
+                  <option value="pending">Pending</option>
+                  <option value="on-process">On Process</option>
+                  <option value="finished">Finished</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td>Furniture</td>
+              <td>001</td>
+              <td><a href="#">Message</a></td>
+              <td>
+                <select class="select">
+                  <option disabled selected>Select</option>
+                  <option value="pending">Pending</option>
+                  <option value="on-process">On Process</option>
+                  <option value="finished">Finished</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td>Furniture</td>
+              <td>001</td>
+              <td><a href="#">Message</a></td>
+              <td>
+                <select class="select">
+                  <option disabled selected>Select</option>
+                  <option value="pending">Pending</option>
+                  <option value="on-process">On Process</option>
+                  <option value="finished">Finished</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td>Furniture</td>
+              <td>001</td>
+              <td><a href="#">Message</a></td>
+              <td>
+                <select class="select">
+                  <option disabled selected>Select</option>
+                  <option value="pending">Pending</option>
+                  <option value="on-process">On Process</option>
+                  <option value="finished">Finished</option>
+                </select>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </main>
+    </div>
+
+    <script>
+      const openMenu = document.querySelector(".menu-toggle");
+      const sidebar = document.querySelector(".sidebar");
+      // const closeMenu = document.querySelector('.closeMenu');
+
+      openMenu.addEventListener("click", () => {
+        openMenu.classList.toggle("activate");
+        sidebar.classList.toggle("activate");
+      });
+
+      // closeMenu.addEventListener('click', () => {
+      //     closeMenu.classList.toggle('deactivate');
+      //     sidebar.classList.toggle('deactivate');
+      // })
+    </script>
+  </body>
+</html>

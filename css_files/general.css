@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+@media (max-width: 600px) {
+  header .header_right_section {
+    display: none;
+  }
+
+  .title-container h2 {
+    display: none;
+  }
+
+  .categories-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .service-provider-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 20px;
+    column-gap: 40px;
+    margin: 0 5%;
+  }
+}

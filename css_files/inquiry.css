@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.inquiry-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 20px;
+  column-gap: 40px;
+  margin-top: 100px;
+  margin: 125px 5%;
+}
+
+.inquiry {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid;
+}
+
+.inquiry-account-profile {
+  display: flex;
+  align-items: center;
+  padding: 40px;
+}
+
+.inquiry-account-profile img {
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+}
+
+.inquiry-basic-information {
+  margin: 0 50px;
+}
+
+.inquiry-basic-information ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+.inquiry-basic-information ul li {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.info {
+  font-weight: 700;
+  margin-right: 5px;
+}
+
+.description-info {
+  width: 100%;
+  min-height: 100px;
+
+  border: solid;
+}
+
+.inquiry button {
+  width: 150px;
+  padding: 10px 0;
+  text-align: center;
+  margin: 0 50px 20px 50px;
+  border-radius: 25px;
+  font-weight: bold;
+  border: 2px solid #009688;
+  background: transparent;
+  color: black;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}

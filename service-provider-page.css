@@ -1,0 +1,59 @@
+#service-provider-page {
+  display: flex;
+  flex-direction: column;
+  height: max-content;
+}
+
+.service-provider-title {
+  height: 100px;
+
+  border: solid;
+}
+
+.service-provider-title h1,
+.service-provider-title p {
+  margin-left: 30px;
+}
+
+.service-provider-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 20px;
+  column-gap: 40px;
+  margin: 0 5%;
+
+  border: solid;
+}
+
+.service-provider {
+  border: solid;
+}
+
+.service-provider-profile-container {
+  position: relative;
+  text-align: center;
+}
+
+.service-provider-profile {
+  width: 50px;
+  height: 50px;
+  padding: 3px;
+  border: solid;
+  border-radius: 30px;
+}
+
+.service-provider-info-container {
+  min-height: 30px;
+  position: relative;
+}
+
+.view-button {
+  margin-left: 40%;
+}
+
+.service-provider-more {
+  height: 50px;
+  text-align: center;
+
+  border: solid;
+}

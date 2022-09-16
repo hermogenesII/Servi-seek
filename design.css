@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image:linear-gradient(rgba(234, 237, 244, 0.381), rgba(232, 180, 106, 0.551), rgba(76, 128, 201, 0.6)),url('bgg.jpg');
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    overflow: hidden;
+}
+h1{
+    color: #4c4c4c;
+    text-align: center;
+    font-family: 'Rubik Dirt', cursive;    
+    font-size: 70px; 
+}
+h3{
+    
+    color:#29292b;
+    text-align: center;
+    margin-top: -3%;
+    font-size: 30px;
+}
+.sign-in{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    opacity: 0.8;   
+}
+.sign-in h2{
+    text-align: center;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid silver;
+}
+.sign-in form{
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+form .text{
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin: 25px 0;
+}
+.text input{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16pxp;
+    border: none;
+    background: none;
+    outline: none;
+}
+.text label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: black;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+    transition: .5s;
+}
+.text span::before{
+    content: '';
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #2691d9;
+}
+.text input:focus ~ label,
+.text input:valid ~ label{
+    top: -5px;
+    color: #2691d9;
+}
+.log input{
+    width: 100%;
+    height: 50px;
+    border: 1px solid;
+    background: #2691d9;
+    border-radius: 25px;
+    font-size: 18px;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+    outline: none;
+}
+.log input:hover{
+    border-color: #2691d9;
+    transition: .10s;
+}
+.login {
+    margin: 30px 0;
+    text-align: center;
+    font-size: 16px;
+    color: black; 
+}
+.login a{
+    color: #2691d9;
+    text-decoration: none; 
+}
+.login a:hover{
+    text-decoration: underline;
+}
+.img {
+   margin-left: 100px;
+   margin-top: 50px;
+   border-radius: 500px;
+  }

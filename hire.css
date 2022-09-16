@@ -1,0 +1,43 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: sans-serif;
+}
+
+.content {
+	margin-top: 120px;
+	background-color: green;
+	display: grid;
+	place-items: center;
+	margin-right: 500px;
+	margin-left: 500px;
+	padding: 10px;
+	border-radius: .5em;
+}
+
+.content .table tr td {
+	padding: 10px;
+}
+
+.content .table tr td input {
+	border: 1px solid #000;
+	border-radius: .5em;
+	height: 20px;
+}
+
+.content .description {
+	align-content: center;
+}
+
+.content .description .input {
+	height: 5rem;
+	width: 15rem;
+	border-radius: .5em;
+}
+
+.content .description .input .button {
+	margin-top: 1rem;
+}

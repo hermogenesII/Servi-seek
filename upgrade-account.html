@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="upgrade-account.css" />
+
+    <title>Upgrade Accounts</title>
+  </head>
+  <body>
+    <div class="upgrade-account-container">
+      <div class="upgrade-account">
+        <h1>Upgrade Account</h1>
+
+        <form action="#">
+          <select name="category" id="category">
+            <option value="" hidden>Category</option>
+            <option value="Utility">Utility</option>
+            <option value="Electronic Device">Electronic Device</option>
+            <option value="Mechanic">Mechanic</option>
+          </select>
+
+          <select name="specific-service" id="specific-service">
+            <option value="" hidden>Specific-Service</option>
+            <option value="Utility">Utility</option>
+            <option value="Electronic Device">Electronic Device</option>
+            <option value="Mechanic">Mechanic</option>
+          </select>
+
+          <textarea
+            name="upgrade-account-description"
+            id="upgrade-account-description"
+            placeholder="Description:"
+          ></textarea>
+
+          <input type="button" value="Free Trial" />
+          <input type="button" value="Subscribe" />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.basic-info {
+  width: 80%;
+  height: 100vh;
+  margin: auto;
+  margin-top: 35px;
+}
+
+.basic-info-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 75px;
+}
+
+.basic-info-top img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.service-provider-btn button {
+  width: 150px;
+  padding: 10px 0;
+  text-align: center;
+  margin: 20px 10px;
+  border-radius: 25px;
+  font-weight: bold;
+  border: 2px solid #009688;
+  background: transparent;
+  color: black;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+.basic-info-bot {
+  margin: 0 100px;
+}
+
+.basic-info-bot ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+.basic-info-bot ul li {
+  position: relative;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.info {
+  display: inline-block;
+  width: 200px;
+}
+
+.description-info {
+  width: 600px;
+  height: 150px;
+  display: inline-block;
+  align-items: flex-start;
+
+  border: solid;
+}
+
+/* Rating and Reviews */
+
+.rating-and-reviews-page {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.rating-and-reviews-page h1 {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.rating-and-reviews {
+  height: 500px;
+  border: 2px solid;
+}
+
+.rating-and-reviews-info {
+  padding: 25px 25px;
+  display: flex;
+}
+
+.rating-and-reviews-info img {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.name-and-date {
+  text-align: start;
+  margin-left: 30px;
+}
+
+.name-and-date h3 {
+  font-size: 20px;
+}
+
+.name-and-date p {
+  font-size: 15px;
+}
+
+.rating-and-comments {
+  margin: 5px 30px;
+  text-align: start;
+}
+
+.comments {
+  width: 100%;
+  height: 125px;
+  margin: auto;
+  border: 2px solid;
+}
+
+.rating-and-reviews-gallery {
+  display: grid;
+  margin: 20px 30px;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  width: 250px;
+  height: 200px;
+  border: 2px solid;
+}
+.gallery img {
+  height: max-content;
+  width: max-content;
+}

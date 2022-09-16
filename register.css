@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Poppins:wght@400;500;600&display=swap');
+* {
+	padding: 0;
+	margin: 0;
+	font-family: "Poppins", sans-serif;
+	box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-image:linear-gradient(rgba(234, 237, 244, 0.381), rgba(232, 180, 106, 0.551), rgba(76, 128, 201, 0.6)),url('bgg.jpg');
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+}
+.registration-form {
+	margin: 0rem auto;
+	margin-top: 150px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	width: 650px;
+	background-color: white;
+	border-radius: 10px;
+	opacity: 0.8;
+}
+.registration-form h1 {
+	font-family: Poppins;
+	font-size: 32px;
+	font-weight: bold;
+	color: black;
+	text-align: center;
+	margin-bottom: 15px;
+	margin-top: 5px;
+	padding: 20px 0;
+	border-bottom: 2px solid  #adadad;
+}
+.last, .first, .address, .contactno, .gender, .buttonn2 {
+	margin-top: 3px;
+	margin-left: 62px;
+	margin-bottom: 3px;
+	display: inline-block;
+	text-align: left;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.last p, .first p, .address p, .contactno p, .gender p, .buttonn2 button {
+	display: flex;
+	font-size: 18px;
+	color: black;
+	text-align: inherit;
+	vertical-align: inherit;
+}
+.last input, .first input, .address input, .contactno input, .buttonn2 button {
+	width: 225px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-right: 3px;
+	padding-left: 3px;
+	text-align: left;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	font-size: 14px;
+	border-width: 1px;
+	border-color: black;
+	border-style: solid;
+	border-radius: 5px;
+}
+.check {
+	margin-left: 62px;
+	margin-top: 10px;
+	color: rgb(0, 0, 0);
+	display: block;
+}
+.gender select{
+	width: 225px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	text-align: left;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-size: 14px;
+	border-color: rgb(0, 0, 0);
+	border-style: solid;
+	border-radius: 5px;
+	border-width: 1px;
+}
+.gender option {
+	color: rgb(0, 0, 0);
+	font-size: 16px;
+}
+.registerbutton2 {
+	padding-left: 48px;
+	font-size: 15px;
+	text-align: left;
+	color: white;
+	text-decoration: none;
+	transition: background-color 0.15ss, color 0.15 s;
+}
+.buttonn2 {
+	margin-top: 18px;
+	margin-bottom: 10px;
+	margin-left: 60px; 
+    border: none;
+}
+.buttonn2 button {
+    width: 170px;
+    padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: center;
+	border-radius: 25px;
+	background-color:  #2691d9;
+	transition: opacity 0.15s;
+
+}
+button[type="submit"]:hover{
+  transition: .5s;
+}
+.buttonn2 button:hover {
+	cursor: pointer;
+	color: white;
+	background-color: rgb(191, 214, 245);
+
+	opacity: 0.9;
+}
+.buttonn2 button:active {
+	opacity: 0.7;
+}
+

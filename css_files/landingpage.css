@@ -1,0 +1,70 @@
+.landingpage {
+  margin-top: 1%;
+  display: flex;
+  padding-bottom: 50px;
+}
+.landingpage .content-cols {
+  width: 50%;
+  padding: 50px;
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+  margin-top: 50px;
+}
+.landingpage .content-cols h1 {
+  font-size: 7vmin;
+  color: #484872;
+  margin-left: -5px;
+}
+.landingpage .content-cols .lines {
+  width: 150px;
+  height: 4px;
+  background: #fc036b;
+  border-radius: 5px;
+  margin-right: 75%;
+}
+.landingpage .content-cols p {
+  color: #484872;
+  text-align: justify;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  margin-left: -15%;
+  padding: 0 100px;
+}
+.landingpage .content-cols .ctn {
+  padding: 8px 15px;
+  background: #fc036b;
+  border-radius: 25px;
+  color: whitesmoke;
+  align-self: center;
+  text-decoration: none;
+}
+
+.landingpage .content-cols .ctn:hover {
+  background-color: whitesmoke;
+  color: #fc036b;
+}
+
+.landingpage .image-col {
+  margin-left: 150px;
+  margin-top: 100px;
+}
+
+.landingpage .image-gallery img {
+  height: 300px;
+  width: 500px;
+}
+/*footer*/
+.footer {
+  width: 100%;
+  min-height: 95px;
+  padding: 20px 0;
+  margin: 0;
+  background: #2e2e4d;
+}
+.footer p {
+  color: whitesmoke;
+  margin: 20px auto;
+  padding: 20px auto;
+  text-align: center;
+}
